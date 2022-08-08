@@ -24,15 +24,14 @@ a {
     z-index: 1;
     width: 100%;
     opacity: 0.5;
-    background: rgba(0, 0, 0, 0.7);
+    background: black;
     color: var(--pink);
     font-family: "Cinzel", serif;
 
     @media (max-width: 500px) {
         opacity: 1;
         padding: 0;
-        background: rgba(0, 0, 0, 0.7);
-
+        background: black;
     }
 
 
@@ -55,7 +54,7 @@ a {
             gap: 0;
             z-index: 1;
             flex-direction: column;
-            background: rgba(0, 0, 0, 0.7);
+            background: black;
             padding-bottom: 0;
             width: 100%;
             text-align: center;

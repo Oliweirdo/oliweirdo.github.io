@@ -70,6 +70,9 @@ body {
   }
 }
 
+.skills__title--small {
+  font-size: 25px;
+}
 
 .small {
   font-size: 35px;
@@ -77,6 +80,7 @@ body {
   padding-bottom: 20px;
   font-family: inherit;
 }
+
 
 .skills__title {
   padding-top: 50px;
@@ -93,6 +97,14 @@ body {
     font-size: 50px;
     line-height: 32px;
     margin: 0;
+  }
+}
+
+.title__about {
+
+  @media screen and (max-width: 750px) {
+    z-index: 2;
+    margin-bottom: -100px;
   }
 }
 
@@ -219,7 +231,7 @@ section h2 {
   padding-top: 250px;
   max-width: 1000px;
   color: $pink;
-  ;
+
 }
 
 .about>img {
@@ -242,16 +254,17 @@ section h2 {
 
 .right__side__about,
 .left__side__about {
+
   text-align: center;
   align-items: center;
   font-size: 1vw;
   max-width: 400px;
   margin: 0 auto;
-  padding-bottom: 150px;
+
   text-align: justify;
 
   @media(max-width:786px) {
-    padding-top: 50px;
+
     padding-bottom: 50px;
 
     width: 300px;
@@ -261,9 +274,16 @@ section h2 {
 
 }
 
+.left__side__about {
+  @media(max-width:750px) {
+    margin-top: -200px;
+    padding-bottom: 50px;
+  }
+}
+
 .right__side__about {
 
-  @media(max-width:786px) {
+  @media(max-width:750px) {
     padding-bottom: 100px;
     display: block;
   }

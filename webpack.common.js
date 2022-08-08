@@ -100,5 +100,11 @@ module.exports = {
       chunks: ["index"],
       filename: "contact.html",
     }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/skills.html",
+      inject: true,
+      chunks: ["index"],
+      filename: "skills.html",
+    }),
   ],
 };
