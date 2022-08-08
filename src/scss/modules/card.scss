@@ -2,7 +2,6 @@
   width: 600px;
   height: auto;
   background: #ff61d8;
-  ;
   text-align: right;
   border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
   animation-name: BorderRadius;
@@ -10,7 +9,7 @@
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   box-shadow: 15px 15px 50px #ff61d8;
-  ;
+
 }
 
 @keyframes BorderRadius {
