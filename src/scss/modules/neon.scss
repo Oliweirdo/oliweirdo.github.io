@@ -1,0 +1,36 @@
+.neon {
+    color: black;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #0ff,
+        0 0 80px #0ff,
+        0 0 90px #0ff,
+        0 0 100px #0ff,
+        0 0 150px #0ff;
+
+    @media (max-width: 500px) {
+        margin-bottom: -150px;
+    }
+}
+
+.neon__small {
+    color: black;
+    font-size: 25px;
+    padding-bottom: 15px;
+    text-shadow:
+        0 0 5px #ff61d8,
+        0 0 10px #ff61d8,
+        0 0 20px #ff61d8,
+        0 0 40px #ff61d8,
+        0 0 80px #ff61d8,
+        0 0 100px #ff61d8;
+
+    @media (max-width: 500px) {
+        padding-left: -50px;
+
+    }
+}
