@@ -1,17 +1,8 @@
-:root {
-    --bg: black;
-    --green: #a5ea9b;
-    --pink: #ff61d8;
-    --blue: #569cfa;
-    --orange: #ffcc81;
-    --cyan: #7ed1e2;
-}
-
 #cat {
     padding-top: 20vh;
     height: 100vh;
     width: 100vw;
-    background: var(--bg);
+    background: $bg;
     display: flex;
     place-content: center;
     overflow: hidden;
@@ -50,7 +41,7 @@
 }
 
 #bongo-cat {
-    fill: var(--bg);
+    fill: $bg;
     stroke-linecap: round;
     stroke-linejoin: round;
     stroke-width: 4;
@@ -62,7 +53,7 @@
 
     .paw,
     .head {
-        stroke: var(--orange);
+        stroke: $orange;
     }
 
     .laptop-keyboard {
@@ -77,24 +68,24 @@
     .laptop-base,
     .laptop-cover,
     .paw .pads {
-        stroke: var(--pink);
+        stroke: $pink;
     }
 
     .table line,
     .headphone .band,
     .headphone .speaker path:nth-child(3) {
-        stroke: var(--green);
+        stroke: $green;
     }
 
     .terminal-frame,
     .laptop-keyboard,
     .headphone .speaker path:nth-child(2) {
-        stroke: var(--blue);
+        stroke: $blue;
     }
 
     .terminal-code,
     .headphone .speaker path:first-child {
-        stroke: var(--cyan);
+        stroke: $cyan;
     }
 
     @media(max-width:500px) {

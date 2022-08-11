@@ -25,7 +25,7 @@ a {
     width: 100%;
     opacity: 0.5;
     background: black;
-    color: var(--pink);
+    color: $orange;
     font-family: "Cinzel", serif;
 
     @media (max-width: 500px) {
@@ -79,7 +79,7 @@ a {
 
     &-item {
         font-size: 20px;
-        color: rgb(148, 95, 135);
+        color: $orange;
 
         @media (max-width: 786px) {
             margin: 16px;
@@ -95,7 +95,7 @@ a {
 
     @media (max-width: 786px) {
         display: block;
-        color: #ff61d8;
+        color: $orange;
         padding-top: 5px;
         z-index: 2;
         opacity: 1;

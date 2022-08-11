@@ -13,7 +13,8 @@
         0 0 150px #0ff;
 
     @media (max-width: 500px) {
-        margin-bottom: -150px;
+        padding-bottom: -250px;
+        max-width: 200px;
     }
 }
 
@@ -30,7 +31,6 @@
         0 0 100px #ff61d8;
 
     @media (max-width: 500px) {
-        padding-left: -50px;
-
+        margin: 0 auto;
     }
 }
