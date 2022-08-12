@@ -4,16 +4,19 @@
 @import "modules/navbar.scss";
 @import "modules/sections.scss";
 @import "modules/skills.scss";
+@import "modules/bubble.scss";
+@import "modules/header.scss";
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap');
+
+
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  color: #fff;
   display: flex;
   min-height: 100vh;
   margin: 0 auto;
@@ -21,7 +24,8 @@ body {
   height: 100vh;
   line-height: 1.6;
   overflow: hidden;
-
+  background-color: black;
+  color: $salmon-pink;
 }
 
 header {
@@ -42,4 +46,8 @@ header {
 
   }
 
+}
+
+.linked {
+  margin-bottom: 5px;
 }
