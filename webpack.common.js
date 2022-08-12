@@ -6,6 +6,8 @@ module.exports = {
   entry: {
     index: "./src/js/index.js",
     another: "./src/js/another.js",
+    hamburger: "./src/js/hamburger.js",
+    wrapper: "./src/js/wrapper.js",
   },
   output: {
     filename: "[name].[hash:8].js",
@@ -79,7 +81,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./src/pages/index.html",
       inject: true,
-      chunks: ["index"],
+      chunks: ["index", "hamburger"],
       filename: "index.html",
     }),
     new HtmlWebpackPlugin({
