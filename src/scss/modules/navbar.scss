@@ -36,9 +36,13 @@ a {
         width: auto;
         justify-content: space-between;
         font-family: 'Ballet',
-        cursive;
+            cursive;
         font-size: 30px;
         padding-top: 7px;
+
+        @media (max-width: 550px) {
+            margin-right: 70px;
+        }
     }
 
     &-menu {
@@ -94,8 +98,9 @@ a {
 
 @media (max-width: 550px) {
     .hamburger {
+        margin-left: 50px;
         display: block;
-        margin: 0 auto;
+
     }
 
     .hamburger.active .bar:nth-child(2) {
