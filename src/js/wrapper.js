@@ -1,35 +1,35 @@
-let letters = document.getElementsById('title-letter');
+import anime from "animejs/lib/anime.es.js";
+let letters = document.getElementsByClassName("title-letter");
 
 setTimeout(() => {
   for (let i = 0; i < letters.length; i++) {
     anime({
       targets: letters[i],
-      easing: 'easeInQuad',
-      translateX: ['5px', '0'],
-      delay: 50 * i
+      easing: "easeInQuad",
+      translateX: ["5px", "0"],
+      delay: 50 * i,
     });
 
     anime({
       targets: letters[i],
-      easing: 'easeInQuad',
+      easing: "easeInQuad",
       opacity: 1,
       delay: 60 * i,
-      complete: function(anim) {
+      complete: function (anim) {
         if (i === letters.length - 1) {
-          showSubTitle()
+          showSubTitle();
         }
-      }
+      },
     });
   }
 }, 500);
 
-
 function showSubTitle() {
   anime({
-    targets: '#sub-title',
-    easing: 'easeInQuad',
+    targets: "#sub-title",
+    easing: "easeInQuad",
     opacity: 1,
     duration: 300,
-    delay: 1
+    delay: 1,
   });
 }

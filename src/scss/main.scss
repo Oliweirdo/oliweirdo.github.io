@@ -31,6 +31,7 @@ body {
   overflow: hidden;
   background-color: black;
   color: $salmon-pink;
+  -webkit-font-smoothing: antialiased;
 }
 
 header {
@@ -51,8 +52,4 @@ header {
 
   }
 
-}
-
-.linked {
-  margin-bottom: 5px;
 }
