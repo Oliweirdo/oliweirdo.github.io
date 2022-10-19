@@ -19,7 +19,7 @@
 body {
   justify-content: center;
   align-items: center;
-  background-image: url($image);
+  // background-image: url($image);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -49,7 +49,19 @@ header {
   @media (max-width: 500px) {
     scroll-behavior: auto;
     scroll-snap-type: none;
+    overflow-x: hidden;
 
   }
 
+}
+.linked{
+opacity: .7;
+}
+.socials{
+  margin: 0 auto;
+  
+  @media (max-width: 500px) {
+    margin-left: 100px;
+
+  }
 }
